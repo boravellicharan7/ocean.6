@@ -1,0 +1,67 @@
+.a{
+    width: 700px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    text-align: center;
+    margin-left: 300px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.c{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-delay: 1s;
+}
+.cc{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-delay: 1s;
+    margin: 0;
+}
+.dd{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+    transition-duration: 3s;
+    transition-property: all;
+    transition-delay: 1s;
+}
+.zz{
+    transition-duration: 0s;
+    transition-property: all;
+    transition-delay: 0s;
+    font-weight: bolder;
+}
+.zz:hover{
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+}
+.c:hover{
+    scale: 1.1;
+}
+.cc:hover{
+    scale: 1.1;
+}
+.dd:hover{
+    scale: 1.1;
+}
